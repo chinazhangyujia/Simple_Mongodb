@@ -1,0 +1,16 @@
+{
+  "name": "first_mongodb",
+  "version": "1.0.0",
+  "description": "this is a simple node using mongodb with mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yujia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "^4.9.2"
+  }
+}
