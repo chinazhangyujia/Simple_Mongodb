@@ -6,7 +6,7 @@ var router = require('./router/index.js');
 var PORT = 8080;
 
 app.listen(PORT, function(){
-  console.log('listening PORT' + PORT);
+  console.log('listening PORT ' + PORT);
 });
 
 app.use('/static', express.static('static'));
